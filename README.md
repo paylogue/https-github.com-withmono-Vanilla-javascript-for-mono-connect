@@ -17,7 +17,7 @@ Open the `index.html` file in your preferred text editor, update the config obje
 ```javascript
 // from line 27
  var config = {
-    key: "YOUR_PUBLIC_KEY_HERE", // enter your public key here
+    key: "test_pk_ejTyuBpC5y3dihTmKjyU", // enter your public key here
     onSuccess: function (response) {
       copyToClipboard(response.code);
       console.log(JSON.stringify(response));
